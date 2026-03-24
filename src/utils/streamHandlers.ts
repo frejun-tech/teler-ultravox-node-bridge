@@ -48,6 +48,10 @@ export const remoteStreamHandler = () => {
                 if (control.type === 'playback_clear_buffer') {
                     console.log(`Flushing buffer of ${messageBuffer.length} chunks on speech stop`);
                     messageBuffer.length = 0; 
+                    const payload = JSON.stringify({
+                        type: "clear"
+                    });
+                    return [payload, StreamOP.RELAY];
                 }
             }
             return ['', StreamOP.PASS];
