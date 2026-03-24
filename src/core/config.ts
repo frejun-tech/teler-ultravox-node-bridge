@@ -11,8 +11,8 @@ export const config = {
     telerSampleRate:            process.env.TELER_SAMPLE_RATE || "8k",
     telerChunkSize:             Number(process.env.TELER_CHUNK_SIZE) || 500,
     
-    ultravoxAgentId:            process.env.ULTAVOX_AGENT_ID || '',
-    ultravoxApiKey:             process.env.ULTAVOX_API_KEY || '',
-    ultravoxSampleRate:         Number(process.env.ULTAVOX_SAMPLE_RATE) || 8000,
-    ultravoxBufferSize:         Number(process.env.ULTAVOX_MESSAGE_BUFFER_SIZE) || 50,
+    ultravoxAgentId:            process.env.ULTRAVOX_AGENT_ID || '',
+    ultravoxApiKey:             process.env.ULTRAVOX_API_KEY || '',
+    ultravoxSampleRate:         Number(process.env.ULTRAVOX_SAMPLE_RATE) || 8000,
+    ultravoxBufferSize:         Number(process.env.ULTRAVOX_MESSAGE_BUFFER_SIZE) || 50,
 } as const;

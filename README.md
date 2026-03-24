@@ -1,6 +1,6 @@
 # Teler-Ultravox-Node-Bridge
 
-A reference integration between Teler and ULTAVOX in Node, based on [Media Streaming Bridge](https://frejun.ai/docs/category/media-streaming/) over WebSockets.
+A reference integration between Teler and ULTRAVOX in Node, based on [Media Streaming Bridge](https://frejun.ai/docs/category/media-streaming/) over WebSockets.
 
 
 ## Setup
@@ -23,10 +23,10 @@ A reference integration between Teler and ULTAVOX in Node, based on [Media Strea
 
 | Variable                   | Description                   | Default  |
 | -------------------------- | ----------------------------- | -------- |
-| `ULTAVOX_ASSISTANT_ID`        | Your ULTAVOX assistant ID        | Required |
-| `ULTAVOX_API_KEY`             | Your ULTAVOX API key             | Required |
-| `ULTAVOX_SAMPLE_RATE`         | Audio sample rate of ULTAVOX     | 8000     |
-| `ULTAVOX_MESSAGE_BUFFER_SIZE` | Messages to buffer before relay| 50      |
+| `ULTRAVOX_ASSISTANT_ID`        | Your ULTRAVOX assistant ID        | Required |
+| `ULTRAVOX_API_KEY`             | Your ULTRAVOX API key             | Required |
+| `ULTRAVOX_SAMPLE_RATE`         | Audio sample rate of ULTRAVOX     | 8000     |
+| `ULTRAVOX_MESSAGE_BUFFER_SIZE` | Messages to buffer before relay| 50      |
 | `TELER_API_KEY`            | Your Teler API key            | Required |
 | `TELER_SAMPLE_RATE`        | Audio sample rate of Teler    | 8k       |
 | `TELER_CHUNK_SIZE`        | Chunk size of Teler audio      | 500      |
