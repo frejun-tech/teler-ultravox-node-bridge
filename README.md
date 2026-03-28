@@ -1,6 +1,6 @@
 # Teler-Ultravox-Node-Bridge
 
-A reference integration between Teler and ULTRAVOX in Node, based on [Media Streaming Bridge](https://frejun.ai/docs/category/media-streaming/) over WebSockets.
+A reference Node integration between Teler and ULTRAVOX in Node, based on [Media Streaming Bridge](https://frejun.ai/docs/category/media-streaming/) over WebSockets.
 
 
 ## Setup
@@ -8,7 +8,7 @@ A reference integration between Teler and ULTRAVOX in Node, based on [Media Stre
 1. **Clone and configure:**
 
    ```bash
-   git clone https://github.com/rupak-stack/teler-ultravox-node-bridge.git
+   git clone https://github.com/frejun-tech/teler-ultravox-node-bridge.git
    cd teler-ultravox-node-bridge
    cp .env.example .env
    # Edit .env with your actual values
@@ -23,7 +23,7 @@ A reference integration between Teler and ULTRAVOX in Node, based on [Media Stre
 
 | Variable                   | Description                   | Default  |
 | -------------------------- | ----------------------------- | -------- |
-| `ULTRAVOX_ASSISTANT_ID`        | Your ULTRAVOX assistant ID        | Required |
+| `ULTRAVOX_AGENT_ID`        | Your ULTRAVOX Agent ID        | Required |
 | `ULTRAVOX_API_KEY`             | Your ULTRAVOX API key             | Required |
 | `ULTRAVOX_SAMPLE_RATE`         | Audio sample rate of ULTRAVOX     | 8000     |
 | `ULTRAVOX_MESSAGE_BUFFER_SIZE` | Messages to buffer before relay| 50      |
